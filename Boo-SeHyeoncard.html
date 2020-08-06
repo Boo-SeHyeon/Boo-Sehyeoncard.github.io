@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+        <title>CSS Practice</title>
+            <style>
+                .card{
+                    margin: auto;
+                    width:300px;
+                    height:500px;
+                    border: 1px solid gray;
+                    border-radius :3%;
+                    overflow : hidden;
+                }
+                .profile_img{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    padding-top : 35px;
+                    padding-bottom : 35px;
+                }
+                .name{
+                    text-align: center;
+                    font-size : 25px;
+                    color : green;
+                    margin-top : 10px;
+                    margin-left : 20px;
+                    margin-right : 20px;
+                    border-bottom : 0.5px solid gray;
+                    padding-bottom: 10px;
+                    font-family: 'Dokdo', cursive;
+                }
+                .intro{
+                    text-align : center;
+                    overflow-y:scroll;
+                    height:220px;
+                    padding-right:25px;
+                    padding-left:25px;
+                    font-family: 'Dokdo', cursive;
+                }
+                .profile_img_div{
+                    margin-bottom:15px;
+                    text-align: center;
+                    background-color: green;
+                }
+                ::-webkit-scrollbar {
+                      width: 15px;
+                }
+                ::-webkit-scrollbar-track {
+                    background-color: #B0E2AF;
+                } /* the new scrollbar will have a flat appearance with the set background color */
+
+                ::-webkit-scrollbar-thumb {
+                    background-color: #B0E2FF;
+                } /* this will style the thumb, ignoring the track */
+
+                ::-webkit-scrollbar-button {
+                    background-color: #B0E2AF;
+                } /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+            </style>
+
+
+    </head>
+    <body>
+        <div class = "card">
+            <div class = "profile_img_div">
+                <img src="roopy1.jpg", class = 'profile_img'>
+            </div>
+            <div class = "name">
+                부세현
+            </div>
+            <div class = "intro">
+               <br> 안녕하세요.. <br>저는 부세현이에요<br> 저는 술 마시는 것을 좋아하는 데요<br> 탕에 쏘주 한 잔 때리는 상상을 하기만 해도 <br>화려한 군침이 싸악 나를 감싸노~<br><br> 또 저는 부씨 인데요 부씨는 제주도 성씨 입니다. 가끔 세븐틴 부승관이랑 친척이냐고 물어보는 사람들 있는데 맞습니다. 사촌 지간이지만 저도 못 본지 참 오래된 것 같아요. <br>응 사실 구라에요......먄빠이
+            </div>
+        </div>
+    </body>
+<html>
